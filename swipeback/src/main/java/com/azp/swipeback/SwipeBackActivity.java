@@ -20,14 +20,6 @@ public class SwipeBackActivity extends AppCompatActivity implements SwipeBackAct
         mHelper.onPostCreate();
     }
 
-   /* @Override
-    public View findViewById(int id) {
-        View v = super.findViewById(id);
-        if (v == null && mHelper != null)
-            return mHelper.findViewById(id);
-        return v;
-    }*/
-
     @Override
     public SwipeBackLayout getSwipeBackLayout() {
         return mHelper.getSwipeBackLayout();

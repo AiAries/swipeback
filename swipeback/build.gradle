@@ -20,7 +20,7 @@ ext {
     siteUrl = 'https://github.com/AiAries/swipeback'
     gitUrl = 'https://github.com/AiAries/swipeback.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.3'
 
     developerId = 'AiAries'
     developerName = 'AiAries'
