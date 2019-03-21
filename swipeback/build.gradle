@@ -4,12 +4,13 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'swipeback'
 
-    publishedGroupId = 'org.passion.central'
+    publishedGroupId = 'com.azp'
     /*
     * Execution failed for task ':app:bintrayUpload'.
     > Could not upload to 'https://api.bintray.com/content/zedongmao/maven/swipeback/0.0.1/org/passion/central/app/0.0.1/app-0.0.1.pom': HTTP/1.1 400 Bad Request
      [message:Unable to upload files: Maven group, artifact or version defined in the pom file do not match the file path 'org/passion/central/app/0.0.1/app-0.0.
     1.pom']
+    上传的项目的module名字和libraryName不一致导致的
     */
     libraryName = 'swipeback'
     artifact = 'swipeback'
